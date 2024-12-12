@@ -1,0 +1,198 @@
+.dashboard-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Metrics Container */
+  .metrics-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .metric-card {
+    background-color: #fff;
+    padding: 20px;
+    width: 120px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .metric-card.green {
+    background-color: #e8f8e8;
+  }
+  
+  .metric-card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .metric-card h3 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  /* Keyword Search Stats */
+  .keyword-search-stats {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .keyword-search-stats h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .keyword-search-stats .info-icon {
+    font-size: 14px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .chart-section {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .stats-metrics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .metric {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .metric-title {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .metric-value {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .no-keywords {
+    text-align: center;
+    color: #aaa;
+  }
+  
+  .no-keywords-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .magnifier-icon {
+    font-size: 32px;
+  }
+  
+  
+  /* Article Views */
+  .article-views-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .article-views-container h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .article-views-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .metric {
+    text-align: center;
+  }
+  
+  .metric p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .metric h3 {
+    font-size: 24px;
+    margin-top: 5px;
+  }
+  
+  .chart-container {
+    height: 300px;
+  }
+  .section-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .section-container h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Metric Styles */
+  .metric {
+    text-align: center;
+  }
+  
+  .metric-title {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .metric-value {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  /* Placeholder Chart Styles */
+  .chart-placeholder {
+    color: #aaa;
+    font-size: 14px;
+  }
+  
+  /* No Keywords and No Articles Text */
+  .no-keywords-text,
+  .no-articles-text {
+    font-size: 16px;
+    color: #888;
+    margin-top: 20px;
+  }
+  
+  .magnifier-icon {
+    font-size: 32px;
+    margin-top: 10px;
+  }
